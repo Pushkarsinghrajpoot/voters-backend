@@ -16,8 +16,6 @@ import asyncio
 import pandas as pd
 import io
 
-# Add parent directory to path to import detail module
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import detail_enhanced as detail
 
 from supabase import create_client, Client
